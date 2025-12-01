@@ -14,7 +14,7 @@ def user_input_features():
   # Entrada
   Presupuesto = st.number_input('Presupuesto (MXN):', min_value=1, max_value=1000000, value = 1, step = 1)
   Tiempo_invertido = st.number_input('Tiempo invertido (min):', min_value=1, max_value=1440, value = 1, step = 1)
-  st.markdown("Tipo \n0. Entretenimiento / ocio  \n1. Ahorro / inversión  \n2. Ejercicio / deporte \n3. Alimentos / salud  \n4. Transporte  \n5. Académico")
+  st.markdown("Tipo \n\n0. Entretenimiento / ocio  \n1. Ahorro / inversión  \n2. Ejercicio / deporte \n3. Alimentos / salud  \n4. Transporte  \n5. Académico")
   Tipo = st.number_input("Selecciona:", min_value=0, max_value=5, value = 0, step = 1)
   st.markdown("Momento \n \n0. Mañana \n1. Tarde \n2. Noche")
   Momento = st.number_input("Selecciona:",min_value=0, max_value=2, value = 0, step = 1)
